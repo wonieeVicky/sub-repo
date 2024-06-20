@@ -4,7 +4,7 @@ const Button = ({ text, onClick, ...props }: any) => {
   return (
     <button
       style={{
-        border: '1px solid blue',
+        border: '1px solid orange',
         padding: '15px 20px',
         borderRadius: 8,
         ...props.style
