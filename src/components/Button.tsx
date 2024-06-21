@@ -11,7 +11,7 @@ const Button = ({ text, onClick, ...props }: any) => {
       }}
       onClick={onClick}
     >
-      {text}
+      {text}sub-repo
     </button>
   );
 };
